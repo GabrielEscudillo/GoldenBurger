@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Burger</title>
+    <link rel="icon" href="/img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+<div>
+    <header>
+        <img src="img/logo.svg" alt="logo">
+            <div>
+            <a href="home.html">HOME</a>
+            <a href="carta.html">CARTA</a>
+            <a href="contacto.html">CONTACTO</a>
+            </div>
+    </header>
+</div>  
+<section>
+    <div class="container">
+        <!-- Pestañas para las categorías -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="entrantes-tab" data-toggle="tab" href="#entrantes" role="tab"
+                    aria-controls="entrantes" aria-selected="true">ENTRANTES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="hamburguesas-tab" data-toggle="tab" href="#hamburguesas" role="tab"
+                    aria-controls="hamburguesas" aria-selected="false">HAMBURGUESAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="bebidas-tab" data-toggle="tab" href="#bebidas" role="tab"
+                    aria-controls="bebidas" aria-selected="false">BEBIDAS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="postres-tab" data-toggle="tab" href="#postres" role="tab"
+                    aria-controls="postres" aria-selected="false">POSTRES</a>
+            </li>
+        </ul>
+        <!-- Contenido de las categorías -->
+<div class="tab-content mt-3" id="myTabContent">
+    <div class="tab-pane fade show active" id="entrantes" role="tabpanel" aria-labelledby="entrantes-tab">
+        <div class="item">
+            <img src="img/ent1.jpg" alt="guacamole">
+                <div class="item-info">
+                    <h3>GUACAMOLE</h3>
+                        <p>7,00€</p>
+                </div>
+        </div>
+         <div class="item">
+            <img src="img/ent2.jpg" alt="Hummus">
+                <div class="item-info">
+                    <h3>HUMMUS</h3>
+                        <p>5,90€</p>
+                </div>
+        </div>
+        <div class="item">
+            <img src="img/ent3.jpg" alt="ChickenFingers">
+                <div class="item-info">
+                    <h3>STRIPS DE POLLO</h3>
+                        <p>8,50€</p>
+                </div>
+            </div>
+        </div>
+<div class="tab-pane fade" id="hamburguesas" role="tabpanel" aria-labelledby="hamburguesas-tab">
+    <div class="item">
+        <img src="/img/burger1.jpg" alt="burger">
+            <div class="item-info">
+                <h3>Hamburguesa Doble Oro</h3>
+                    <p>16,50€</p>
+            </div>
+        </div>                   
+    <div class="item">
+        <img src="/img/burger2.jpg" alt="burger">
+            <div class="item-info">
+                <h3>Burger Oro y Fuego</h3>
+                    <p>12,50€</p>
+            </div>
+        </div>                 
+    <div class="item">
+        <img src="/img/burger3.jpg" alt="burger">
+            <div class="item-info">
+                <h3>Burger Royale</h3>
+                    <p>16,50€</p>
+            </div>
+        </div>
+    <div class="item">     
+        <img src="/img/burger4.jpg" alt="burger">
+            <div class="item-info">
+                <h3>Burger Classic Gold</h3>
+                    <p>12,50€</p>
+                </div>
+            </div>
+    <div class="item">
+        <img src="/img/burger5.jpg" alt="burger">
+            <div class="item-info">
+                <h3>Golden Supreme Burger</h3>
+                    <p>11,50€</p>
+                </div>
+            </div>
+    <div class="item">
+        <img src="/img/burger6.jpg" alt="burger">
+            <div class="item-info">
+                <h3>Burger Elegancia Dorada</h3>
+                    <p>12,50€</p>
+                </div>
+            </div>
+        </div>
+<div class="tab-pane fade" id="bebidas" role="tabpanel" aria-labelledby="bebidas-tab">
+    <div class="item-info">
+        <img src="/img/caipirinha.jpg" alt="caipirinha">
+            <div class="item-info">
+                <h3>CAIPIRINHA</h3>
+                    <p>7,50€</p>
+                </div>
+            </div>
+    <div class="item-info">
+        <img src="/img/mojito.jpg" alt="burger">
+            <div class="item-info">
+                <h3>MOJITO</h3>
+                    <p>6,50€</p>
+                </div>
+            </div>
+    <div class="item-info">
+        <img src="/img/sexonthebeach.jpg" alt="sexonthebeach">
+            <div class="item-info">
+                <h3>SEX ON THE BEACH</h3>
+                    <p>8,50€</p>
+                </div>
+            </div>
+    <div class="item-info">        
+        <img src="/img/margarita.jpg" alt="margarita">
+            <div class="item-info">
+                <h3>MARGARITA</h3>
+                    <p>7,50€</p>
+                </div>
+            </div>
+        </div>
+    <div class="tab-pane fade" id="postres" role="tabpanel" aria-labelledby="postres-tab">
+        <div class="item-info"> 
+            <img src="/img/chocos.jpg" alt="chocos">
+                <div class="item-info">
+                    <h3>TARTA DE CHOCOLATE</h3>
+                        <p>7,50€</p>
+                </div>
+            </div>
+        <div class="item-info"> 
+            <img src="/img/oreo.jpg" alt="oreo">
+                <div class="item-info">
+                    <h3>TARTA DE OREO</h3>
+                        <p>5,50€</p>
+                    </div>
+                </div>
+        <div class="item-info"> 
+            <img src="/img/cheesecake.jpg" alt="cheesecake">
+                <div class="item-info">
+                    <h3>TARTA DE QUESO</h3>
+                        <p>8,50€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="separator"></div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>HORARIO DEL LOCAL</h4>
+                <p>
+                    L | Cerrado<br>
+                    M | Cerrado<br>
+                    X | 20:30-24:00<br>
+                    J | 20:30-24:00<br>
+                    V | 13:30-16:00, 20:30-24:00<br>
+                    S | 13:30-16:00, 20:30-24:00<br>
+                    D | 13:30-16:00, 20:30-24:00
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h4>¿DÓNDE ESTAMOS?</h4>
+                <p>Encuéntranos en: Av. de Peris i Valero, 145, 46005 València</p>
+                <h4>POLÍTICAS GOLDEN BURGER</h4>
+                <ul>
+                    <li><a href="#">Política de Cookies</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<div>© 2023 Company, Inc</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
